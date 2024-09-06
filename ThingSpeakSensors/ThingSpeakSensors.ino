@@ -7,16 +7,16 @@
 Adafruit_BMP280 bmp; // I2C Interface
 
 
-const char* ssid = "HD-iPhone-14-128GB";  // Change to your WiFi Network name
-const char* password = "chaverim";  // Change to your password
+const char* ssid = ssidnetwork;  // Change to your WiFi Network name
+const char* password = wifipassword;  // Change to your password
 
 
 WiFiClient  client;
 
 int pinState = 1;
 
-unsigned long myChannelNumber = 2647477;
-const char * myWriteAPIKey = "EAM6YKBD274OY116";
+unsigned long myChannelNumber = insertchannelnumber;
+const char * myWriteAPIKey = "insertapiwritekey";
 
 const int trigPin = 5;
 const int echoPin = 18;
